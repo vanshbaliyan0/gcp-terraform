@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name                     = "tt-github-demo-bucket-vansh-1222322"
+  name                     = "tt-github-demo-bucket-vansh-1222322-new"
   location                 = "US"
   force_destroy            = true
   public_access_prevention = "enforced"
